@@ -2,4 +2,4 @@
   become: true
   tasks:
   - name: create docker container
-    shell: docker run -d --name ansible_container -p 8090:8080 gurendra /gurendra_image
+    shell: docker run -d --name ansible_container -p 8090:8080 gurendra /maven_deployment
