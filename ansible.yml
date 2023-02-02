@@ -3,7 +3,3 @@
   tasks:
   - name: create docker container
     shell: docker run -d --name ansible_container -p 8090:8080 gurendra/maven-deployment
-    - name: Stop a container
-  docker_container:
-    name: maven-deployment
-    state: absent
